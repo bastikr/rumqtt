@@ -79,7 +79,9 @@ use std::fmt::{self, Debug, Formatter};
 use std::sync::Arc;
 use std::time::Duration;
 
+pub mod async_client;
 mod client;
+pub mod connection_manager;
 mod eventloop;
 mod framed;
 mod state;
